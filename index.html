@@ -16,6 +16,15 @@
        input:checked + label {
            color: red;
        }
+       a {
+           display: inline-block; /* for ::first-letter */
+       }
+       a::first-letter {
+           float: left; /* for text-decoration */
+           font-size: xx-large;
+           vertical-align: top;
+           text-decoration: none;
+       }
    </style>
  </head>
  <body>
